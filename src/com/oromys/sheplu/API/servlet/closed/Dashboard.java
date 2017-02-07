@@ -37,7 +37,7 @@ public class Dashboard extends HttpServlet {
 			response.sendRedirect("login");
 		}
 		this.getServletContext()
-		.getRequestDispatcher("/WEB-INF/dashboard.jsp")
+		.getRequestDispatcher("/WEB-INF/logged/dashboard.jsp")
 		.forward(request, response);
 	}
 

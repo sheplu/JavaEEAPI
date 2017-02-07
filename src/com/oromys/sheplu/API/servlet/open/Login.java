@@ -1,6 +1,5 @@
 package com.oromys.sheplu.API.servlet.open;
 
-import java.io.Console;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -30,7 +29,7 @@ public class Login extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		this.getServletContext()
-		.getRequestDispatcher("/WEB-INF/login.jsp")
+		.getRequestDispatcher("/WEB-INF/public/login.jsp")
 		.forward(request, response);
 	}
 
